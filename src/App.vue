@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import HelloI18n from './components/HelloI18n.vue'
+import HelloI18n from './components/HelloI18n.vue';
 
 export default {
   name: 'App',

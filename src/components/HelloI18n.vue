@@ -6,10 +6,18 @@
 
 <script>
 
-import LocaleSwitcher from './LocaleSwitcher.vue'; 
-export default{
-  name: 'HelloI18n',
+import LocaleSwitcher from './LocaleSwitcher.vue';
+export default {
+  name: "HelloI18n",
   components: {LocaleSwitcher}
 };
 </script>
 
+
+<i18n>
+{
+  "en": {
+    "hello": "Hello i18n in SFC!"
+  }
+}
+</i18n>
